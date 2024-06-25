@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,700|Oswald:400,700" rel="stylesheet">
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container blog-card  ">
+      <div class="header">
+        <h1>Random AI</h1>
+      </div>
+      <label for="">Channel:<img class="icon" src="https://img.icons8.com/?size=100&id=MIMjVKoXINIT&format=png&color=000000" alt=""></label>
+      <select name="" id="select" onchange="handleFruitChange()">
+        <option value=""></option>
+        <option value="2">🇪🇸 MIGUEL~GARCIA~ANALISTA 🇪🇸</option>
+        <option value="">+ add Channel</option>
+      </select>
+      <div hidden class="content">
+        <img class="img-profile" src="foto.jpg" alt="" />
+        <div class="sub">Subscribers: <label class="lab" for="">7569</label></div>
+        <p class="span">🇪🇸 MIGUEL~GARCIA~ANALISTA 🇪🇸</p>
+      </div>
+      <div class="post">
+        <label for="">Post:</label>
+            <select class="select" name="" id="select2" onchange="handleFruitChange()">
+                <option value=""></option>
+                <option value="2">No</option>
+                <option value=""> + add post</option>
+              </select>
+    </div>
+    <div hidden class="posts">
+        <p>💎Déjese inspirar por el éxito de los ganadores de ayer, que pudieron comprar una apuesta a cuotas superiores a 25,00!😁
+
+            📊Por qué no está usted todavía entre ellos? ✅Es hora de actuar!💡
+            
+            ‼️Quería comprar una apuesta pero no ha tenido tiempo? No hay problema, ¡nuestros analistas trabajan todos los días!❇️
+            
+            ⚜️Puedes reservar tu plaza enviándome un mensaje de texto - 👉🏻@Garcia_Analista
+            
+            📲Comparte tu éxito si tuviste tiempo de comprar un pronóstico! @Garcia_Analista</p>
+    </div>
+
+    <div class="input">
+        <label for="">List Name:</label>
+        <input class="inp" type="file"></input>
+    </div>
+    <div class="btn">
+        <input type="button" value="Start" class="start"></input>
+    </div>
+    </div>
+
+    <div  class="modal" id="modal-btn">
+        <div class="modal-box">
+            <!-- <h1>Win</h1> -->
+            <div class="content-box">
+                <h1>Winner</h1>
+                <img class="icons" src="https://img.icons8.com/?size=100&id=yaxSYCDuI3qt&format=png&color=000000" alt="" />
+                <img class="iconss" src="https://img.icons8.com/?size=100&id=yaxSYCDuI3qt&format=png&color=000000" alt="" />
+                <img class="img-profile" src="foto2.jpg" alt="" />
+                <!-- <div class="sub">Subscribers: <label class="lab" for="">7569</label></div> -->
+                 
+                <p class="span">Cristóbal Fuentes</p>
+                <label for="">t.me<img class="icon" src="https://img.icons8.com/?size=100&id=MIMjVKoXINIT&format=png&color=000000" alt=""></label>
+                <button id="send" type="button" class="send"><a href="https://t.me/Santiago_prado123">Send</a></button>
+            </div>
+        </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
